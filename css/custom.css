@@ -1,0 +1,31 @@
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+#circle-shape-example { 
+  font-family:;
+  margin: 2rem;
+  width: 37%
+}
+#circle-shape-example p { 
+  text-align: left;  
+  color: #CC6600;
+    
+}
+#circle-shape-example .curve { 
+  width: 53%; height: auto;
+  min-width: 150px;
+  float: left;
+  margin-right:2rem; 
+  border-radius: 50%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+}
+
+.row {
+	color: #993D00;
+}
+
+$('#code').click(function(){
+window.open("http://www.w3schools.com");
+});
